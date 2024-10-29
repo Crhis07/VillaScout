@@ -1,16 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    PAPIUUUUUUUUUUUUUU SOMOS AHGORA Español o italiano 12343
-    <button >INICIO</button>
-    <button><a href="Nosotros.html">NOSOTROS</a></button>
-    <button ><a href="RamasActivas/Scout/html/tropa.html" class="button">RAMAS ACTIVAS</a></button>
-    <button>COLABORADORES</button>
-    <button>CONTACTO</button>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <script src="index.js"></script>
+    <title>Delfines de Molokai 262</title>
+  </head>
+  <body>
+    <div class="cabecera" id="logodelfin" align="left">
+      <a href="index.html"
+        ><img src="Nosotros/logodelfin.png" height="150px" width="120px"
+      /></a>
+
+      <ul class="nav" align="right">
+        <li>
+          <a href="inicio.html">INICIO</a>
+        </li>
+        <li>
+          <a href="inicio.html">NOSOTROS</a>
+        </li>
+        <li>
+          <a href="">RAMAS ACTIVAS</a>
+          <ul>
+            <li><a href="">LOBATO</a></li>
+            <li><a href="">SCOUT</a></li>
+            <li><a href="">CAMINANTES</a></li>
+            <li><a href="">ROVER</a></li>
+          </ul>
+        </li>
+        <li><a href="">COLABORADORES</a></li>
+        <li><a href="">CONTACTO</a></li>
+      </ul>
+    </div>
+
+    <div class="carousel">
+      <div class="carousel-images">
+        <img
+          class="carousel-image"
+          src="Nosotros/desfile2023.jpg"
+          alt="Imagen 1"
+          width="500px"
+          height="500px"
+        />
+        <img
+          class="carousel-image"
+          src="Nosotros/desfile2024.jpg"
+          alt="Imagen 2"
+          width="500px"
+          height="500px"
+        />
+        <img
+          class="carousel-image"
+          src="Nosotros/desfile2023.jpg"
+          alt="Imagen 3"
+          width="500px"
+          height="500px"
+        />
+      </div>
+      <button class="btn btn-left" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="btn btn-right" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <div class="final"></div>
+  </body>
 </html>

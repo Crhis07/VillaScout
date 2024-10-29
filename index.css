@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.carousel-image {
+    min-width: 100%;
+}
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn-left {
+    left: 10px;
+}
+.btn-right {
+    right: 10px;
+}
